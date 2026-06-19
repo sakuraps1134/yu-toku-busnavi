@@ -1,11 +1,4 @@
 type,name,URL,vehiclelist
-1,ポンチョ,https://raw.githubusercontent.com/sakuraps1134/sagabus-navi/main/poncho.png,"{1288,950,1230,1160,1039}"
-2,旧J,https://raw.githubusercontent.com/sakuraps1134/sagabus-navi/main/kyuJ.png,"{627,720,1313,902,901,1315,620,1198,766,1200,570,1159,1281,529,1229,422,1314,479}"
-3,新J,https://raw.githubusercontent.com/sakuraps1134/sagabus-navi/main/shinJ.png,"{1158,982,1282,1157,983,1062,1120,1231,1333,1280,1316,820,1118,1334,1061,1335,1199,1201,1119,1336,1279}"
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
+1,ポンチョ,https://raw.githubusercontent.com/sakuraps1134/yu-toku-busnavi/main/poncho.png,"{1288,950,1230,1160,1039}"
+2,旧J,https://raw.githubusercontent.com/sakuraps1134/yu-toku-busnavi/main/kyuJ.png,"{627,720,1313,902,901,1315,620,1198,766,1200,570,1159,1281,529,1229,422,1314,479}"
+3,新J,https://raw.githubusercontent.com/sakuraps1134/yu-toku-busnavi/main/shinJ.png,"{1158,982,1282,1157,983,1062,1120,1231,1333,1280,1316,820,1118,1334,1061,1335,1199,1201,1119,1336,1279}"
