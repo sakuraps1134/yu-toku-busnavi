@@ -531,17 +531,13 @@ toggle.addEventListener('click',()=>{
 
 }
 function getVehicleIcon(busLabel){
-
-    const vehicleNo =
-        String(busLabel)
-            .match(/^\d+/)?.[0];
-
-    if(!vehicleNo) return null;
-
-    const match =
-        iconList.find(icon =>
-            icon.vehicles.includes(vehicleNo)
-        );
+    // busLabel をそのまま検索対象にする
+    // iconList の各アイコンの vehicles 配列の中に、
+    // busLabel を含むもの（あるいは完全一致するもの）があるか探す
+    
+    const match = iconList.find(icon => 
+        icon.vehicles.some(v => busLabel.includes(v))
+    );
 
     if(!match) return null;
 
